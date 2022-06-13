@@ -1,0 +1,36 @@
+.btn-outline-success {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+.btn-outline-success:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+.first-footer {
+  border-bottom: 2px solid rgb(53, 53, 53);
+}
+.second-footer a {
+  text-decoration: none;
+  color: white;
+}
+.third-line {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .first-footer {
+    text-align: center;
+  }
+  .second-footer {
+    border-bottom: 2px solid rgb(53, 53, 53);
+  }
+  .third-line {
+    display: block;
+  }
+}
